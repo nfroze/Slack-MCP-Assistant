@@ -8,5 +8,6 @@ Node.js • Model Context Protocol • Slack Web API • Claude Desktop • OAut
 
 ## Screenshots
 
-- [Slack question](screenshots/slack-channels.png)
-- [Slack summary](screenshots/slack-summary.png)
+![Slack question](screenshots/slack-channels.png)
+
+![Slack summary](screenshots/slack-summary.png)
