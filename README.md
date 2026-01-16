@@ -12,6 +12,8 @@ This demonstrates practical AI integration — not building another chatbot, but
 
 ## Architecture
 
+![Cloud Architecture](screenshots/cloud-architecture.png)
+
 Claude Desktop communicates with the MCP server over stdio, using JSON-RPC to invoke tools. The server translates these tool calls into Slack Web API requests, handles OAuth token authentication, and returns structured message data for Claude to process.
 
 The flow works as follows: user asks Claude a question about Slack → Claude determines which MCP tool to call → server authenticates with Slack using bot token → fetches channel messages with optional time filtering → returns formatted JSON → Claude generates natural language response.
